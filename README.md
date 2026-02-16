@@ -1,4 +1,3 @@
-# pufferstache
 thank you to kulotii on the SDV discord for the OG pufferstache emoji!!
 
 
