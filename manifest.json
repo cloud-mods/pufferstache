@@ -1,0 +1,15 @@
+{
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  //
+  "Name": "[CP] pufferstache",
+  "Author": "HeadInTheClouds",
+  "Version": "1.0",
+  "Description": "it staches your puffer",
+  "UniqueID": "HeadInTheClouds.Pufferstache",
+  "UpdateKeys": [
+    "Nexus:42389"
+  ],
+  "ContentPackFor": {
+    "UniqueId": "Pathoschild.ContentPatcher"
+  }
+}

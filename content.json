@@ -1,0 +1,37 @@
+{
+    "Format": "2.9.0",
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Changes": [
+        { //object
+            "Action": "EditImage",
+            "Target": "Maps/springobjects",
+            "FromFile": "pufferstache.png",
+            "ToArea": {
+                "X": 128,
+                "Y": 80,
+                "Width": 16,
+                "Height": 16
+            },
+            "PatchMode": "Replace",
+        },
+        { //aqaurium
+            "Action": "EditImage",
+            "Target": "LooseSprites/AquariumFish",
+            "FromFile": "pufferstache.png",
+            "ToArea": {
+                "X": 3,
+                "Y": 4,
+                "Width": 16,
+                "Height": 16
+            },
+            "PatchMode": "Replace",
+        },
+        { //desc
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "Pufferfish_Description": "{{i18n: Pufferfish_Description}}",
+            }
+        },
+    ]
+}
